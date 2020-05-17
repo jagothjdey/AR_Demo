@@ -13,6 +13,8 @@
 		293C65CF2470DAF20033C064 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 293C65CE2470DAF20033C064 /* Assets.xcassets */; };
 		293C65D22470DAF20033C064 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 293C65D12470DAF20033C064 /* Preview Assets.xcassets */; };
 		293C65D52470DAF20033C064 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 293C65D32470DAF20033C064 /* LaunchScreen.storyboard */; };
+		293C65DD2470DB6C0033C064 /* ARViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 293C65DC2470DB6C0033C064 /* ARViewController.swift */; };
+		293C65DF2470DC9D0033C064 /* pointer_location_map.obj in Resources */ = {isa = PBXBuildFile; fileRef = 293C65DE2470DC9D0033C064 /* pointer_location_map.obj */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		293C65D12470DAF20033C064 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		293C65D42470DAF20033C064 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		293C65D62470DAF20033C064 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		293C65DC2470DB6C0033C064 /* ARViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ARViewController.swift; sourceTree = "<group>"; };
+		293C65DE2470DC9D0033C064 /* pointer_location_map.obj */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = pointer_location_map.obj; path = ../../../pointer_location_map.obj; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +60,7 @@
 		293C65C72470DAEE0033C064 /* ARKit-3DModel */ = {
 			isa = PBXGroup;
 			children = (
+				293C65DE2470DC9D0033C064 /* pointer_location_map.obj */,
 				293C65C82470DAEE0033C064 /* AppDelegate.swift */,
 				293C65CA2470DAEE0033C064 /* SceneDelegate.swift */,
 				293C65CC2470DAEE0033C064 /* ContentView.swift */,
@@ -63,6 +68,7 @@
 				293C65D32470DAF20033C064 /* LaunchScreen.storyboard */,
 				293C65D62470DAF20033C064 /* Info.plist */,
 				293C65D02470DAF20033C064 /* Preview Content */,
+				293C65DC2470DB6C0033C064 /* ARViewController.swift */,
 			);
 			path = "ARKit-3DModel";
 			sourceTree = "<group>";
@@ -136,6 +142,7 @@
 				293C65D52470DAF20033C064 /* LaunchScreen.storyboard in Resources */,
 				293C65D22470DAF20033C064 /* Preview Assets.xcassets in Resources */,
 				293C65CF2470DAF20033C064 /* Assets.xcassets in Resources */,
+				293C65DF2470DC9D0033C064 /* pointer_location_map.obj in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -149,6 +156,7 @@
 				293C65C92470DAEE0033C064 /* AppDelegate.swift in Sources */,
 				293C65CB2470DAEE0033C064 /* SceneDelegate.swift in Sources */,
 				293C65CD2470DAEE0033C064 /* ContentView.swift in Sources */,
+				293C65DD2470DB6C0033C064 /* ARViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

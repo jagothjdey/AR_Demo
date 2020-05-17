@@ -1,21 +1,20 @@
-//
-//  ContentView.swift
-//  ARKit-3DModel
-//
-//  Created by Jagoth Jyoti Dey on 17.05.20.
-//  Copyright © 2020 Jagoth. All rights reserved.
-//
 
 import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        Text("Hello, World!")
+        NavigationView{
+            IntegratedViewController()
+                .edgesIgnoringSafeArea(.all)
+        }.statusBar(hidden: true)
     }
 }
 
-struct ContentView_Previews: PreviewProvider {
-    static var previews: some View {
-        ContentView()
+struct IntegratedViewController: UIViewControllerRepresentable {
+    func makeUIViewController(context: UIViewControllerRepresentableContext<IntegratedViewController>) -> ARViewController {
+        let arViewController = ARViewController()
+        return arViewController
+    }
+    func updateUIViewController(_ uiViewController: ARViewController, context: UIViewControllerRepresentableContext<IntegratedViewController>) {
     }
 }
