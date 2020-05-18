@@ -90,14 +90,14 @@ class ARViewController: UIViewController, ARSCNViewDelegate, ARSessionDelegate {
         
         if let result = hitTestResults.first {
             let position = SCNVector3.positionFrom(matrix: result.worldTransform)
-            let markerNode = makeMarkerNode(position, 4)
+            let markerNode = makeMarkerNode(position)
             return markerNode
         }
         
         return SCNNode()
     }
     
-    func makeMarkerNode(_ position : SCNVector3,_ color : Int)->SCNNode{
+    func makeMarkerNode(_ position : SCNVector3)->SCNNode{
         guard let markerScene = SCNScene(named: "pointer_location_map.obj") else { return SCNNode() }
         let markerNode = SCNNode()
         let markerSceneChildNodes = markerScene.rootNode.childNodes
@@ -117,7 +117,7 @@ class ARViewController: UIViewController, ARSCNViewDelegate, ARSessionDelegate {
     func session(_ session: ARSession, didUpdate frame: ARFrame) {
         if frameUpdated{
             nodeArray.forEach { (node) in
-                sceneView.scene.rootNode.addChildNode(makeMarkerNode(node.position, 4))
+                sceneView.scene.rootNode.addChildNode(makeMarkerNode(node.position))
             }
             frameUpdated = false
         }

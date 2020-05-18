@@ -15,6 +15,7 @@
 		293C65D52470DAF20033C064 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 293C65D32470DAF20033C064 /* LaunchScreen.storyboard */; };
 		293C65DD2470DB6C0033C064 /* ARViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 293C65DC2470DB6C0033C064 /* ARViewController.swift */; };
 		293C65DF2470DC9D0033C064 /* pointer_location_map.obj in Resources */ = {isa = PBXBuildFile; fileRef = 293C65DE2470DC9D0033C064 /* pointer_location_map.obj */; };
+		293C65E1247101D40033C064 /* chair.obj in Resources */ = {isa = PBXBuildFile; fileRef = 293C65E0247101D40033C064 /* chair.obj */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +29,7 @@
 		293C65D62470DAF20033C064 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		293C65DC2470DB6C0033C064 /* ARViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ARViewController.swift; sourceTree = "<group>"; };
 		293C65DE2470DC9D0033C064 /* pointer_location_map.obj */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = pointer_location_map.obj; path = ../../../pointer_location_map.obj; sourceTree = "<group>"; };
+		293C65E0247101D40033C064 /* chair.obj */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = chair.obj; path = ../../../chair/chair.obj; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +62,7 @@
 		293C65C72470DAEE0033C064 /* ARKit-3DModel */ = {
 			isa = PBXGroup;
 			children = (
+				293C65E0247101D40033C064 /* chair.obj */,
 				293C65DE2470DC9D0033C064 /* pointer_location_map.obj */,
 				293C65C82470DAEE0033C064 /* AppDelegate.swift */,
 				293C65CA2470DAEE0033C064 /* SceneDelegate.swift */,
@@ -141,6 +144,7 @@
 			files = (
 				293C65D52470DAF20033C064 /* LaunchScreen.storyboard in Resources */,
 				293C65D22470DAF20033C064 /* Preview Assets.xcassets in Resources */,
+				293C65E1247101D40033C064 /* chair.obj in Resources */,
 				293C65CF2470DAF20033C064 /* Assets.xcassets in Resources */,
 				293C65DF2470DC9D0033C064 /* pointer_location_map.obj in Resources */,
 			);
